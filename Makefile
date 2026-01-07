@@ -25,7 +25,7 @@ ENVTEST_K8S_VERSION ?= 1.32.0
 ENVTEST_VERSION ?= release-0.21
 
 # used to detemine if certain targets should build for openshift
-OCP ?= false
+OCP ?= true
 
 IMAGE_REGISTRY ?= quay.io/openshift-kni
 
